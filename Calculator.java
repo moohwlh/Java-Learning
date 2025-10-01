@@ -4,7 +4,7 @@ class Calculator{ // classe de calculatrice simple en java POO
    int sum = a + b;
     return sum;
   }
-  public int substract(int a,int b){
+  public int subtract(int a,int b){
    int sub = a - b;
     return sub;
   }
@@ -23,9 +23,10 @@ class Calculator{ // classe de calculatrice simple en java POO
   public static void main(String[] args){
     Calculator myCalculator = new Calculator();
     System.out.println(myCalculator.add(5,7));
-    System.out.println(myCalculator.substract(45,11));
+    System.out.println(myCalculator.subtract(45,11));
     System.out.println(myCalculator.(5,7));
   }
   
+
 
 }
