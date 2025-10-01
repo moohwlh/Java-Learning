@@ -24,9 +24,9 @@ class Calculator{ // classe de calculatrice simple en java POO
     Calculator myCalculator = new Calculator();
     System.out.println(myCalculator.add(5,7));
     System.out.println(myCalculator.subtract(45,11));
-    System.out.println(myCalculator.(5,7));
   }
   
 
 
 }
+
